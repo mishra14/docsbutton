@@ -4,5 +4,8 @@ from notebook.base.handlers import IPythonHandler
 class LiveShareRequestHandler(IPythonHandler):
 
     def get(self):
-        self.write('This is a sample for jupyter liveshare')
+        response_json=dict()
+        response_json['title']='This is jupyter LiveShare'
+        response_json['body']='Jupyter LiveShare request received.'
+        self.write(response_json)
         self.flush()

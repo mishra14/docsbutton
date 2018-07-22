@@ -10,3 +10,4 @@ global-exclude *.sh
 include README.md
 include pizzabutton/static/*.js
 include pizzabutton/*.py
+include image/*.png

@@ -1,0 +1,12 @@
+# exclude from ANY directory
+global-exclude *.ipynb
+global-exclude *.py[cod]
+global-exclude __pycache__
+global-exclude .git
+global-exclude .ipynb_checkpoints
+global-exclude *.sh
+
+# explicit includes
+include README.md
+include pizzabutton/static/*.js
+include pizzabutton/*.py
